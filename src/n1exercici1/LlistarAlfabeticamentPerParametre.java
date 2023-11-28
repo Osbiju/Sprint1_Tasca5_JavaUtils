@@ -20,7 +20,8 @@ public class LlistarAlfabeticamentPerParametre {
         Arrays.sort(archivos);
 
         for (File archivo : archivos){
-            System.out.println(directorio.getAbsolutePath() + archivo.getName());
+            //System.out.println(directorio.getAbsolutePath()  + archivo.getName()); no es correcte aixi...
+            System.out.println(archivo.getAbsolutePath());
         }
 
 
