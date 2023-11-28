@@ -23,6 +23,31 @@ public class LlistarAlfabeticamentPerParametre {
             //System.out.println(directorio.getAbsolutePath()  + archivo.getName()); no es correcte aixi...
             System.out.println(archivo.getAbsolutePath());
         }
+    }
+
+    //n1exercici2
+    //funcio encarregada de llistar l'arbre de directoris d'un directori donat
+    public void llistarArbreDeDirectoris(File directorio) {
+        //TODO
+        if (directorio.listFiles() == null){
+            System.out.println("Directorio no encontrado");
+            return;
+
+        }
+        //imprimir directori actual
+
+
+        for(File archivo : directorio.listFiles()){
+            if(archivo.isDirectory()){
+                System.out.println("(D)" + directorio.getAbsolutePath());
+                llistarArbreDeDirectoris(archivo);
+            }else{
+                System.out.println("(F)" + archivo.getAbsolutePath());
+            }
+
+
+        }
+
 
 
     }
