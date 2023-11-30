@@ -1,10 +1,10 @@
 package n1exercici3;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Arrays;
 import java.util.Date;
+import java.io.FileReader;
+
 
 
 public class GuardarEnFitxer {
@@ -75,6 +75,9 @@ public class GuardarEnFitxer {
 
 
     }
+    //afegir funcionalitat de llegir qualsevol fitxer TXT i mostrar contingut per consola
+
+
 
 
 }
