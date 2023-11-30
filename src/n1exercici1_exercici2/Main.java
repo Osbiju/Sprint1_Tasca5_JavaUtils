@@ -1,4 +1,4 @@
-package n1exercici1;
+package n1exercici1_exercici2;
 
 import java.io.File;
 
@@ -16,6 +16,9 @@ public class Main {
 
         // Llista l'arbre de directoris del directori actual
         llistat.llistarArbreDeDirectoris(directorioActual);
+        /*long lastModified = directorioActual.lastModified();
+        System.out.println("Ultima modificacio: " + new Date(lastModified));*/
+
 
     }
 }

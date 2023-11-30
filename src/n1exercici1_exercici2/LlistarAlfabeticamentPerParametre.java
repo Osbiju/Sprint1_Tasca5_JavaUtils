@@ -1,7 +1,8 @@
-package n1exercici1;
+package n1exercici1_exercici2;
 
 import java.io.File;
 import java.util.Arrays;
+import java.util.Date;
 
 
 public class LlistarAlfabeticamentPerParametre {
@@ -38,12 +39,14 @@ public class LlistarAlfabeticamentPerParametre {
 
 
         for(File archivo : directorio.listFiles()){
+            long lastModified = archivo.lastModified();
             if(archivo.isDirectory()){
-                System.out.println("(D)" + directorio.getAbsolutePath());
+                System.out.println("(D)" + directorio.getAbsolutePath() + "  Ultima modificacio:  " +  new Date(lastModified));
                 llistarArbreDeDirectoris(archivo);
             }else{
-                System.out.println("(F)" + archivo.getAbsolutePath());
+                System.out.println("(F)" + archivo.getAbsolutePath() + "  Ultima modificacio:  " +  new Date(lastModified) );
             }
+
 
 
         }
