@@ -3,7 +3,6 @@ package n1exercici3;
 import java.io.*;
 import java.util.Arrays;
 import java.util.Date;
-import java.io.FileReader;
 
 
 
