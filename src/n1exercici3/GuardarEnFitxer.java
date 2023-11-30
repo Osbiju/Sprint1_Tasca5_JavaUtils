@@ -48,7 +48,7 @@ public class GuardarEnFitxer {
         }
     }
 
-    //n1exercici2
+
     //funcio encarregada de llistar l'arbre de directoris d'un directori donat
     public void llistarArbreDeDirectoris(File directorio) {
         //TODO
