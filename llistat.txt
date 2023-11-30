@@ -1,6 +1,7 @@
 C:\Users\formacio\Documents\Osbiju\Sprint1_Tasca5_JavaUtils\.git
 C:\Users\formacio\Documents\Osbiju\Sprint1_Tasca5_JavaUtils\.gitignore
 C:\Users\formacio\Documents\Osbiju\Sprint1_Tasca5_JavaUtils\.idea
+C:\Users\formacio\Documents\Osbiju\Sprint1_Tasca5_JavaUtils\llistat.txt
 C:\Users\formacio\Documents\Osbiju\Sprint1_Tasca5_JavaUtils\out
 C:\Users\formacio\Documents\Osbiju\Sprint1_Tasca5_JavaUtils\Sprint1_Tasca5_JavaUtils.iml
 C:\Users\formacio\Documents\Osbiju\Sprint1_Tasca5_JavaUtils\src

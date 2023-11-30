@@ -76,7 +76,26 @@ public class GuardarEnFitxer {
     }
     //afegir funcionalitat de llegir qualsevol fitxer TXT i mostrar contingut per consola
 
+    public void llegirFitxerTXT(File fitxer) {
+        // Creem una variable de tipus BufferedReader per llegir el fitxer TXT
+        BufferedReader lector = null;
+        try {
+            lector = new BufferedReader(new FileReader(fitxer));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
 
+        // Llegim el contingut del fitxer TXT, una línia a la vegada
+        String linia;
+        try {
+            while ((linia = lector.readLine()) != null) {
+                // Imprimim la línia llegit per consola
+                System.out.println(linia);
+            }
+        } catch (IOException e) {
+            System.out.println("Error al llegir el fitxer.");
+        }
+    }
 
 
 }
