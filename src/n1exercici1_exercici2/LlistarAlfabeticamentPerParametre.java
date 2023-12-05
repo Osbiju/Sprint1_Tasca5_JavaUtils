@@ -21,7 +21,6 @@ public class LlistarAlfabeticamentPerParametre {
         Arrays.sort(archivos);
 
         for (File archivo : archivos){
-            //System.out.println(directorio.getAbsolutePath()  + archivo.getName()); no es correcte aixi...
             System.out.println(archivo.getAbsolutePath());
         }
     }
@@ -36,7 +35,6 @@ public class LlistarAlfabeticamentPerParametre {
         }
         //imprimir directori actual
 
-
         for(File archivo : directorio.listFiles()){
             long lastModified = archivo.lastModified();
             if(archivo.isDirectory()){
@@ -45,14 +43,6 @@ public class LlistarAlfabeticamentPerParametre {
             }else{
                 System.out.println("(F)" + archivo.getAbsolutePath() + "  Ultima modificacio:  " +  new Date(lastModified) );
             }
-
-
-
         }
-
-
-
     }
-
-
 }
