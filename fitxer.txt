@@ -1,0 +1,8 @@
+D:n1exercici1 Ultima modificacio: 07-12-2023 10:18:38
+F:DirectoriOrdenatAlfabeticament.java Ultima modificacio: 07-12-2023 10:18:38
+D:n1exercici2 Ultima modificacio: 07-12-2023 10:33:04
+F:DirectoriRecursiu.java Ultima modificacio: 07-12-2023 10:33:04
+D:n1exercici3 Ultima modificacio: 07-12-2023 10:41:28
+F:RecursiuA_Text.java Ultima modificacio: 07-12-2023 10:41:28
+D:n1exercici4 Ultima modificacio: 07-12-2023 11:00:26
+F:LlegirText.java Ultima modificacio: 07-12-2023 11:00:26
