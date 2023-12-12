@@ -1,1 +1,5 @@
-Ir a la sección Buscar en la barra inferior izquierda en Windows y poner cmd:
+Ir a la sección Buscar en la barra inferior izquierda en Windows y poner cmd.
+introducir "cd" + espacio y poner la ruta deseada donde esté nuestro programa a ejecutar.
+Una vez dentro del directorio, se puede poner "dir" para saber que carpetas hay.
+Para compilar un archivo se utiliza "javac" y escribir el nombre del archivo.java.
+Una vez compilado, para lanzar el programa se utiliza "java" y el nombre del archivo a lanzar.
