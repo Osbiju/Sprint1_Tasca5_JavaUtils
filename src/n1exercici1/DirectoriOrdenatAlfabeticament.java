@@ -39,8 +39,8 @@ public class DirectoriOrdenatAlfabeticament {
             directori = carpeta.listFiles();
             Arrays.sort(directori);
 
-            for (int i = 0; i < directori.length; i++) {
-                System.out.println(directori[i]);
+            for (File file : directori) {
+                System.out.println(file);
             }
         } else {
             System.out.println("La ruta no es la correcta");
